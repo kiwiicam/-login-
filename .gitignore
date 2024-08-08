@@ -1,23 +1,60 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
+# Node.js
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json
+yarn.lock
+
+# React build
+build/
+dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+
+# Framework build outputs
+.next/
+.svelte-kit/
+.nuxt/
+out/
+storybook-static/
+
+# Archive and backup files
+*.tgz
+*.zip
+*.tar
+*.rar
+*.7z
+*.bak
+*.tmp
+
+# Ignore all config files
+*.config.js
+
+# Ignore custom files
+*.local
